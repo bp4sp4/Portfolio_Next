@@ -98,7 +98,7 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  프로젝트소개
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects, from simple
@@ -120,9 +120,10 @@ export default function Page() {
                   title={project.title}
                   description={project.description}
                   dates={project.dates}
+                  caution={project.caution}
                   tags={project.technologies}
                   image={project.image}
-                  video={project.video}
+                  image2={project.image2}
                   links={project.links}
                 />
               </BlurFade>

@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { px } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -18,11 +19,13 @@ interface Props {
   dates: string;
   tags: readonly string[];
   link?: string;
+  caution?: string;
   image?: string;
+  image2?: string;
   video?: string;
   links?: readonly {
     icon: React.ReactNode;
-    type: string;
+    type?: string;
     href: string;
   }[];
   className?: string;
@@ -35,9 +38,10 @@ export function ProjectCard({
   dates,
   tags,
   link,
+  caution,
   image,
-  video,
   links,
+  image2,
   className,
 }: Props) {
   return (
@@ -47,26 +51,26 @@ export function ProjectCard({
       }
     >
       <Link
+        target="__blank"
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
-          />
-        )}
         {image && (
           <Image
             src={image}
             alt={title}
-            width={500}
-            height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
+            width={200}
+            height={100}
+            className="h-auto object-cover block mx-auto "
+          />
+        )}
+        {image2 && (
+          <Image
+            src={image2}
+            alt={title}
+            width={100}
+            height={100}
+            className="h-auto w-full object-cover"
           />
         )}
       </Link>
@@ -74,6 +78,9 @@ export function ProjectCard({
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
           <time className="font-sans text-xs">{dates}</time>
+          <br />
+          <time className="font-sans text-[10px]">{caution}</time>
+
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>

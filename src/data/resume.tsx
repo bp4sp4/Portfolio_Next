@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { FileCheck } from "lucide-react";
 
 export const DATA = {
   name: "SangHun",
@@ -15,16 +16,21 @@ export const DATA = {
   skills: [
     "React",
     "Next.js",
-    "Node.js",
     "JavaScript",
+    "AWS",
+    "SpringBoot",
     "HTML5",
-    "CSS",
+    "CSS3",
     "Mysql",
     "Oracle",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    {
+      href: "https://frontdevpark.tistory.com",
+      icon: NotebookIcon,
+      label: "Blog",
+    },
   ],
   contact: {
     email: "hello@example.com",
@@ -70,9 +76,9 @@ export const DATA = {
   work: [
     {
       company: "T멤버쉽",
-      href: "https://atomic.finance",
+      href: "",
       badges: [],
-      location: "Remote",
+      location: "Gangnam",
       title: "QA App Tester",
       logoUrl: "/tmembership.png",
       start: "2021 10",
@@ -83,8 +89,8 @@ export const DATA = {
     {
       company: "테이블링",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
+      href: "",
+      location: "Gangnam",
       title: "QA App Tester",
       logoUrl: "/tabling.png",
       start: "2022 01",
@@ -94,10 +100,10 @@ export const DATA = {
     },
     {
       company: "새롬정보시스템",
-      href: "https://nvidia.com/",
+      href: "",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
+      location: "GaSan",
+      title: "Web Developer",
       logoUrl: "/searom.jpg",
       start: "2023 02",
       end: "2023 05",
@@ -108,9 +114,50 @@ export const DATA = {
 
   projects: [
     {
+      title: "T멤버쉽",
+      href: "https://docs.google.com/spreadsheets/d/18VKk3mZAMBw4urr8ZgOMfqCM_zKsNrbMq6JaFkkUano/edit#gid=0",
+      dates: "2021 10 - 2022 01",
+      caution:
+        "*해당 TC는 실제 업무에 사용된 파일이 아닌 임시로 제작된 파일입니다.",
+      active: true,
+      description:
+        "와이즈스톤에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 입사 당시에는 티멤버쉽 앱의 검증을 주도적으로 진행하였습니다. 앱의 출시 당일부터 이후에도 지속적으로 사후 검증을 진행하여 사용자 경험을 개선하고 앱의 안정성을 유지하는 데 기여하였습니다.",
+      technologies: ["Jira", "Excel"],
+      links: [
+        {
+          type: "TestCase",
+          href: "https://chatcollect.com",
+          icon: <FileCheck className="size-3" />,
+        },
+      ],
+      image: "/tmembership.png",
+      image2: "",
+    },
+    {
+      title: "테이블링",
+      href: "https://docs.google.com/spreadsheets/d/1XSh-IOTxpKB3Ke0gzqLPEfhZusnqMOclKhfQbAf3dnc/edit",
+      dates: "22.01 - 22.04",
+      caution:
+        "*해당 TC는 실제 업무에 사용된 파일이 아닌 임시로 제작된 파일입니다.",
+      active: true,
+      description:
+        "와이즈스톤에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 테이블링 앱/웹 검증을 진행하였습니다. 테이블링 인트로/홈 담당 검증을 마치고, 사장님보드 웹겁증을 진행 했습니다.",
+      technologies: ["Jira", "Excel"],
+      links: [
+        {
+          type: "TestCase",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/tabling.png",
+      image2: "",
+    },
+    {
       title: "Chat Collect",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
+      caution: "",
       active: true,
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
@@ -130,104 +177,14 @@ export const DATA = {
           href: "https://chatcollect.com",
           icon: <Icons.globe className="size-3" />,
         },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
+          title: "Client Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/dillionverma/RTSPClient",
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image2: "/wedding-main.gif",
     },
   ],
   hackathons: [
