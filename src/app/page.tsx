@@ -101,9 +101,9 @@ export default function Page() {
                   프로젝트소개
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  다양한 프로젝트를 통해 웹 페이지 설계부터 배포까지
+                  경험해왔습니다. 아래는 제가 진행한 Test Case 및 Web 프로젝트를
+                  소개합니다.
                 </p>
               </div>
             </div>
@@ -185,14 +185,8 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
-                <Link
-                  href={DATA.contact.social.X.url}
-                  className="text-blue-500 hover:underline"
-                >
-                  with a direct question on twitter
-                </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
+                Want to chat? Just shoot me a dm with a direct question on
+                twitter and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
               </p>
             </div>

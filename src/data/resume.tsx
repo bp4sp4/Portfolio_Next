@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { FileCheck } from "lucide-react";
+import PaletteIcon from "@mui/icons-material/Palette";
 
 export const DATA = {
   name: "SangHun",
@@ -33,41 +34,20 @@ export const DATA = {
     },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "bp4sp4@naver.com",
+    tel: "010-4710-9210",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/bp4sp4",
         icon: Icons.github,
+        navbar: true,
+      },
 
-        navbar: true,
-      },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
-        icon: Icons.linkedin,
-
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
       email: {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -147,44 +127,168 @@ export const DATA = {
         {
           type: "TestCase",
           href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
+          icon: <FileCheck className="size-3" />,
         },
       ],
       image: "/tabling.png",
       image2: "",
     },
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "WeddingLery",
+      href: "https://bp4sp4.github.io/WeddingVideoPage/",
+      dates: "23.11 - 23.12",
       caution: "",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "웨딩러리는 웨딩관련팁, 계획, 영상을 통해 제공하여 방문자들이 웨딩을 더 효율적으로 준비할 수 있도록 도움을 줄 수 있는 사이트 입니다. UX/UI를 디자인을 논의하기 위해 Figma를 활용했으며, Java, swiper.js, Html5/Css3 이용하여 UI 개발을 진행했습니다.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Publishing",
+        "SpringBoot",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Oracle",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://bp4sp4.github.io/WeddingVideoPage/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Figma",
+          icon: <PaletteIcon className="h-4 w-4" />,
+          href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Grc4Vp3bSTwaJea6-0",
+        },
+        {
+          title: "Client Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/WeddingVideoPage",
+        },
+      ],
+      image: "",
+      image2: "/wedding-main.gif",
+    },
+    {
+      title: "Relux",
+      href: "http://3.36.98.75:8080/main/list-view",
+      dates: "24.09 - 24.11",
+      caution: "",
+      active: true,
+      description:
+        "개인 프로젝트로 리럭스 홈페이지는 명품 소개 사이트이고, 명품에 조금 더 관심을 줄 수 있는 사이트 입니다. UX/UI를 디자인을 논의하기 위해 Figma를 활용했으며, Java, swiper.js, Html5/Css3 이용하여 UI 개발을 진행했습니다.",
+      technologies: ["SpringBoot", "HTML5", "CSS3", "JavaScript", "AWS"],
+      links: [
+        {
+          type: "Website",
+          href: "http://3.36.98.75:8080/main/list-view",
+          icon: <Icons.globe className="size-3" />,
+        },
+
+        {
+          type: "Figma",
+          icon: <PaletteIcon className="h-4 w-4" />,
+          href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux",
+        },
+        {
+          title: "Client Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/ReLux",
+        },
+      ],
+      image: "",
+      image2: "/relux.gif",
+    },
+    {
+      title: "HtmlStudy",
+      href: "https://htmlstudy.co.kr/",
+      dates: "23.11 ~ 23.12",
+      caution: "",
+      active: true,
+      description:
+        "개인 프로젝트로 HtmlStudy는 HTML과 CSS에 대한 소개를 제공하는 React 기반 웹 페이지입니다. 이 사이트는 웹 개발을 처음 접하는 사람들에게 HTML과 CSS의 기초 개념과 사용 방법을 쉽게 설명하고, 예제를 통해 더 깊이 이해할 수 있도록 돕는 것이 목표입니다",
+      technologies: ["React", "HTML5", "CSS3", "JavaScript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://htmlstudy.co.kr/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           title: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/RTSPClient",
+          href: "https://github.com/bp4sp4/HtmlStudy",
         },
       ],
       image: "",
-      image2: "/wedding-main.gif",
+      image2: "/htmlstudy.gif",
+    },
+    {
+      title: "(주)TM media",
+      href: "https://tmmedia.co.kr/",
+      dates: "23.11 - 23.12",
+      caution: "",
+      active: true,
+      description:
+        "TM 미디어 퍼블리싱은 HTML, CSS, JavaScript를 활용하여 사용자 친화적이고 기능적인 웹페이지를 제작했습니다. 반응형 디자인을 통해 다양한 디바이스 환경에서도 최적의 사용자 경험을 제공합니다.",
+      technologies: ["Publishing", "HTML5", "CSS3", "JavaScript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://tmmedia.co.kr/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          title: "Client Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/TM-Media",
+        },
+      ],
+      image: "",
+      image2: "/tmgif.gif",
+    },
+    {
+      title: "Gallery",
+      href: "https://bp4sp4.github.io/CSSGrid/",
+      dates: "23.11 - 23.12",
+      caution: "",
+      active: true,
+      description:
+        "CSS Grid를 활용해 이미지뿐만 아니라 다양한 콘텐츠를 효율적으로 배치하는 갤러리 홈페이지를 퍼블리싱한 미니프로젝트입니다. HTML5, CSS3, JavaScript를 사용하여 동적 이미지 로딩과 레이아웃을 구현하며, 사용자 경험을 고려한 디자인을 완성했습니다. 반응형 디자인을 통해 다양한 디바이스 환경에서도 최적의사용자 경험을 제공합니다.",
+      technologies: ["HTML5", "CSS3", "JavaScript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://bp4sp4.github.io/CSSGrid/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          title: "Client Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/CSSGrid",
+        },
+      ],
+      image: "",
+      image2: "/grid.gif",
+    },
+    {
+      title: "GPT-3.5",
+      href: "",
+      dates: "23.11 - 23.12",
+      caution: "",
+      active: true,
+      description:
+        "GPT API를 이용해 감정 있는 말투로 대화하고, 원하는 이미지 이름을 입력하면 해당 이미지를 확인할 수 있는 혁신적인 홈페이지를 만들었습니다. React, HTML, CSS를 사용하여 이 웹 애플리케이션을 개발했으며, 이를 통해 사용자에게 더욱 생동감 있고 직관적인 상호작용 경험을 제공합니다.",
+      technologies: ["React", "HTML5", "CSS3", "JavaScript"],
+      links: [
+        {
+          title: "Client Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/cheapchatgpt",
+        },
+      ],
+      image: "",
+      image2: "/cheapsite.gif",
     },
   ],
   hackathons: [

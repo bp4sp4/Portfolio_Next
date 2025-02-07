@@ -27,6 +27,7 @@ interface Props {
     icon: React.ReactNode;
     type?: string;
     href: string;
+    figma?: string;
   }[];
   className?: string;
 }
@@ -112,6 +113,7 @@ export function ProjectCard({
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
                   {link.icon}
                   {link.type}
+                  {link.figma}
                 </Badge>
               </Link>
             ))}
