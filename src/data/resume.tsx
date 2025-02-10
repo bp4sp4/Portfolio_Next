@@ -95,7 +95,7 @@ export const DATA = {
   projects: [
     {
       title: "T멤버쉽",
-      href: "https://docs.google.com/spreadsheets/d/18VKk3mZAMBw4urr8ZgOMfqCM_zKsNrbMq6JaFkkUano/edit#gid=0",
+      href: "https://docs.google.com/spreadsheets/d/18VKk3mZAMBw4urr8ZgOMfqCM_zKsNrbMq6JaFkkUano/edit?usp=sharing",
       dates: "2021 10 - 2022 01",
       caution:
         "*해당 TC는 실제 업무에 사용된 파일이 아닌 임시로 제작된 파일입니다.",
@@ -106,7 +106,7 @@ export const DATA = {
       links: [
         {
           type: "TestCase",
-          href: "https://chatcollect.com",
+          href: "https://docs.google.com/spreadsheets/d/18VKk3mZAMBw4urr8ZgOMfqCM_zKsNrbMq6JaFkkUano/edit?usp=sharing",
           icon: <FileCheck className="size-3" />,
         },
       ],
@@ -115,7 +115,7 @@ export const DATA = {
     },
     {
       title: "테이블링",
-      href: "https://docs.google.com/spreadsheets/d/1XSh-IOTxpKB3Ke0gzqLPEfhZusnqMOclKhfQbAf3dnc/edit",
+      href: "https://docs.google.com/spreadsheets/d/1XSh-IOTxpKB3Ke0gzqLPEfhZusnqMOclKhfQbAf3dnc/edit?usp=sharing",
       dates: "2022.01 - 2022.04",
       caution:
         "*해당 TC는 실제 업무에 사용된 파일이 아닌 임시로 제작된 파일입니다.",
@@ -126,7 +126,7 @@ export const DATA = {
       links: [
         {
           type: "TestCase",
-          href: "https://chatcollect.com",
+          href: "https://docs.google.com/spreadsheets/d/1XSh-IOTxpKB3Ke0gzqLPEfhZusnqMOclKhfQbAf3dnc/edit?usp=sharing",
           icon: <FileCheck className="size-3" />,
         },
       ],
@@ -157,7 +157,7 @@ export const DATA = {
         },
         {
           type: "Figma",
-          icon: <PaletteIcon className="h-4 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Grc4Vp3bSTwaJea6-0",
         },
         {
@@ -187,7 +187,7 @@ export const DATA = {
 
         {
           type: "Figma",
-          icon: <PaletteIcon className="h-4 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux",
         },
         {
@@ -414,7 +414,7 @@ export const DATA = {
         },
         {
           title: "Figma",
-          icon: <PaletteIcon className="h-4 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?node-id=0-1&p=f&t=mPRk4qO69AtKSCnX-0",
         },
         {
@@ -509,27 +509,6 @@ export const DATA = {
       ],
     },
     {
-      title: "LostArk-Open-API",
-      dates: "24.03.26 - 24.04.02",
-      location: "",
-      description:
-        "이 프로젝트는 내가 좋아하는 게임인 로스트아크를 주제로 만들어서 더욱 즐거웠습니다. Postman을 활용해 로스트아크 OpenAPI에서 데이터를 가져오고, 이를 JSON 형식으로 가공하여 React로 웹페이지에 동적으로 표시했습니다. 모바일 웹 형식으로 제작하여 사용자들이 휴대폰이나 브라우저를 통해 언제 어디서나 쉽게 정보를 확인할 수 있도록 구현했습니다.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/b/be/Lost_Ark_logo.png",
-      links: [
-        {
-          title: "Website",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://bp4sp4.github.io/LostArk-Open-API/",
-        },
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/bp4sp4/LostArk-Open-API",
-        },
-      ],
-    },
-    {
       title: "HtmlStudy",
       dates: "2024.06.27 - 24.08.22",
       location: "",
@@ -566,7 +545,7 @@ export const DATA = {
         },
         {
           title: "Figma",
-          icon: <PaletteIcon className="h-4 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux?node-id=0-1&p=f&t=avLsjcxiQ2i4dD0Q-0",
         },
         {

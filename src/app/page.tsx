@@ -183,10 +183,9 @@ export default function Page() {
                 함께 이야기해요
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                유능한 웹개발자, QA 를 찾고 있으신가요?
-                <br />
-                새로운 기술을 습득하는 것에 대한 두려움이 없는 웹개발자, QA
-                박상훈 입니다. 저의 성장과 발전을 함께할 동료를 기대합니다.
+                끊임없이 도전하며 웹 페이지를 만들고 새로운 기술을 습득하는 것에
+                대한 두려움이 없는 웹개발자, QA 박상훈 입니다. 저의 성장과
+                발전을 함께할 동료를 기대합니다.
               </p>
             </div>
           </BlurFade>
