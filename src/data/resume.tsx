@@ -55,7 +55,7 @@ export const DATA = {
 
   work: [
     {
-      company: "T멤버쉽",
+      company: "T멤버십",
       href: "",
       badges: [],
       location: "Gangnam",
@@ -64,7 +64,7 @@ export const DATA = {
       start: "2021 10",
       end: "2022 01",
       description:
-        "티멤버쉽 앱검증을 진행했으며 앱의 각종 기능을 테스트하여 사용자 경험을 최적화하고, 모든 기능이 예상대로 동작하는지 점검했습니다. 특히, 혜택 쿠폰함, 룰렛 돌리기, 다양한 혜택 확인 기능에 대한 철저한 검증을 진행했습니다. ",
+        "티멤버십 앱검증을 진행했으며 앱의 각종 기능을 테스트하여 사용자 경험을 최적화하고, 모든 기능이 예상대로 동작하는지 점검했습니다. 특히, 혜택 쿠폰함, 룰렛 돌리기, 다양한 혜택 확인 기능에 대한 철저한 검증을 진행했습니다. ",
     },
     {
       company: "테이블링",
@@ -101,7 +101,7 @@ export const DATA = {
         "*해당 TC는 실제 업무에 사용된 파일이 아닌 임시로 제작된 파일입니다.",
       active: true,
       description:
-        "와이즈스톤에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 입사 당시에는 티멤버쉽 앱의 검증을 주도적으로 진행하였습니다. 앱의 출시 당일부터 이후에도 지속적으로 사후 검증을 진행하여 사용자 경험을 개선하고 앱의 안정성을 유지하는 데 기여하였습니다.",
+        "와이즈스톤티에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 입사 당시에는 티멤버쉽 앱의 검증을 주도적으로 진행하였습니다. 앱의 출시 당일부터 이후에도 지속적으로 사후 검증을 진행하여 사용자 경험을 개선하고 앱의 안정성을 유지하는 데 기여하였습니다.",
       technologies: ["Jira", "Excel"],
       links: [
         {
@@ -121,7 +121,7 @@ export const DATA = {
         "*해당 TC는 실제 업무에 사용된 파일이 아닌 임시로 제작된 파일입니다.",
       active: true,
       description:
-        "와이즈스톤에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 테이블링 앱/웹 검증을 진행하였습니다. 테이블링 인트로/홈 담당 검증을 마치고, 사장님보드 웹겁증을 진행 했습니다.",
+        "와이즈스톤티에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 테이블링 앱/웹 검증을 진행하였습니다. 테이블링 인트로/홈 담당 검증을 마치고, 사장님보드 웹겁증을 진행 했습니다.",
       technologies: ["Jira", "Excel"],
       links: [
         {
@@ -293,209 +293,273 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Project2020",
+      dates: "2020.04 - 2020.06",
+      location: "Daelim University",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+        "대학 시절 처음 HTML5, CSS, Bootstrap, JavaScript DOM을 배우면서 웹 개발에 입문했습니다. 그 과정에서 웹 페이지가 원하는 대로 동작하는 걸 보며 재미를 느끼고, jQuery를 통해 더 간편하게 요소 조작도 익혔습니다.",
+      image: "https://www.icia.co.kr/upload/editor/tmpphp5vH0bCbsh.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-      links: [],
-    },
-    {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
       links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://bp4sp4.github.io/Project2020/",
+        },
         {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/bp4sp4/Project2020",
         },
       ],
     },
     {
-      title: "HackDavis",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
+      title: "movie_app_2020",
+      dates: "2020.09 - 2020.11",
+      location: "Daelim University",
       description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
+        "대학 시절 React를 처음 배우며 JSX, 컴포넌트 개념, props 전달 등을 익혔습니다. 생명주기 함수, 데이터 상태 관리, 라우터 설정도 학습하며 HashRouter 문제나 key props 설정의 중요성도 경험했습니다.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
-    },
-    {
-      title: "ETH Waterloo",
-      dates: "October 13th - 15th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-      links: [
-        {
-          title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
-        },
-      ],
-    },
-    {
-      title: "Hack The North",
-      dates: "September 15th - 17th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Streamer Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/htn2017",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/RTSPClient",
-        },
-      ],
-    },
-    {
-      title: "Hack The 6ix",
-      dates: "August 26th - 27th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
+          href: "https://github.com/bp4sp4/movie_app_2020",
         },
       ],
     },
     {
-      title: "Stupid Hack Toronto",
-      dates: "July 23rd, 2017",
-      location: "Toronto, Ontario",
+      title: "Musiclog",
+      dates: "2021.10 - 2021.11",
+      location: "Daelim University",
       description:
-        "Developed a chrome extension which tracks which facebook profiles you have visited and immediately texts your girlfriend if you visited another girls page.",
+        "대학 시절 동기들과 협업한 팀 프로젝트에서 프론트엔드 메인 및 사이드바 영역을 담당했습니다. UI 구성과 기능 구현에 집중했습니다.",
+      icon: "public",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/stupid-hackathon.png",
+        "https://github.com/bp4sp4/musiclog/blob/main/img/logo.png?raw=true",
       links: [
         {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/nsagirlfriend/nsagirlfriend",
-        },
-      ],
-    },
-    {
-      title: "Global AI Hackathon - Toronto",
-      dates: "June 23rd - 25th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a python library which can be imported to any python game and change difficulty of the game based on real time emotion of player. Uses OpenCV and webcam for facial recognition, and a custom Machine Learning Model trained on a [Kaggle Emotion Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard) using [Tensorflow](https://www.tensorflow.org/Tensorflow) and [Keras](https://keras.io/). This project recieved 1st place prize at the Global AI Hackathon - Toronto and was also invited to demo at [NextAI Canada](https://www.nextcanada.com/next-ai).",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/global-ai-hackathon.jpg",
-      win: "1st Place Winner",
-      links: [
-        {
-          title: "Article",
+          title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/TinySamosas/",
+          href: "https://bp4sp4.github.io/musiclog/",
         },
       ],
     },
     {
-      title: "McGill AI for Social Innovation Hackathon",
-      dates: "June 17th - 18th, 2017",
-      location: "Montreal, Quebec",
+      title: "T멤버십 - QA(테스터)",
+      dates: "2021.10 - 2022.01",
+      location: "와이즈스톤티",
       description:
-        "Developed realtime facial microexpression analyzer using AI",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/ai-for-social-good.jpg",
+        "와이즈스톤티에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 입사 당시에는 티멤버쉽 앱의 검증을 주도적으로 진행하였습니다. 앱의 출시 당일부터 이후에도 지속적으로 사후 검증을 진행하여 사용자 경험을 개선하고 앱의 안정성을 유지하는 데 기여하였습니다.",
+      icon: "public",
+      image: "/tmembership.png",
       links: [],
     },
     {
-      title: "Open Source Circular Economy Days Hackathon",
-      dates: "June 10th, 2017",
-      location: "Toronto, Ontario",
+      title: "테이블링 - QA(테스터)",
+      dates: "2022.01 - 2022.04",
+      location: "와이즈스톤티",
       description:
-        "Developed a custom admin interface for food waste startup <a href='http://genecis.co/'>Genecis</a> to manage their data and provide analytics.",
+        "와이즈스톤티에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 테이블링 앱/웹 검증을 진행하였습니다. 테이블링 인트로/홈 담당 검증을 마치고, 사장님보드 웹겁증을 진행 했습니다.",
+      icon: "public",
+      image: "/tabling.png",
+      links: [],
+    },
+    {
+      title: "지능형영상/이미지 처리를 위한 컴퓨터 비전",
+      dates: "2022.05 - 2022.12",
+      location: "한국ICT인재개발원",
+      description:
+        "7개월간 3개의 Spring 웹 프로젝트를 통해 기획의 중요성, 디자인, 프론트엔드 기술 스킬 상승과 팀원과의 의사소통의 중요성을 알게되었습니다.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrNTlgel-WzWpXGKYwMW4XZumxWzx8IiaUiw&s",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/AugustvonMackensen/finalProject",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/s-sangwon/deebBlue_springSecondProject",
+        },
+      ],
+    },
+    {
+      title: "새롬정보시스템 웹개발 인턴",
+      dates: "2023.02 - 2023.05",
+      location: "Searom",
+      description:
+        "과학기사뉴스를 파이선을 사용해 크롤링해 IBM Watson Studio을 통해 기사들을 가져온 후 비정형데이터로 만든후 IBM검색기술을 통해 최신과학기술 트렌드와 산업협력관계를 분석해, 분석한 내용 토대로 CSV형태로 만들어 D3.JS API를 사용해 워드클라우드 형태로 보여주는 사이트를 만들었습니다.",
+      image: "/searom.jpg",
+      win: "Best Data Hack",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
+      links: [],
+    },
+    {
+      title: "MoviePlaza - Publishing",
+      dates: "2023.06 - 2023.11",
+      location: "",
+      description:
+        "영화와 OTT 트렌드를 분석한 사이트 개발에 참여하여 다양한 데이터를 시각적으로 제공했습니다. 프론트엔드와 어드민 페이지를 통해 유지보수가 용이하도록 구성하였으며, 이 과정에서 HTML과 CSS 실력이 더욱 향상되었습니다.",
+      image: "https://bp4sp4.github.io/MoviePlazaDemoSite/images/banner.jpg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://bp4sp4.github.io/MoviePlazaDemoSite/",
+        },
+        {
+          title: "Figma",
+          icon: <PaletteIcon className="h-4 w-4" />,
+          href: "https://www.figma.com/design/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?node-id=0-1&p=f&t=mPRk4qO69AtKSCnX-0",
+        },
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/MoviePlaza",
+        },
+      ],
+    },
+    {
+      title: "WeddingLery - Publishing",
+      dates: "23.11.01 - 23.12.06",
+      location: "",
+      description:
+        "웨딩러리는 처음으로 진행한 퍼블리싱 프로젝트로, 많은 아쉬움이 남지만 성장의 계기가 된 소중한 경험입니다. 사용자 경험(UX)을 중심으로 설계된 홈페이지였기에 실제로 제가 직접 사용해보면서 불편한 점도 여러 가지 발견할 수 있었습니다.",
+      image: "https://bp4sp4.github.io/WeddingVideoPage/img/back.jpeg",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://bp4sp4.github.io/WeddingVideoPage/",
+        },
+        {
+          title: "Figma",
+          icon: <PaletteIcon className="h-4 w-4" />,
+          href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Lb8SZvO9ISn9mYLK-0",
+        },
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/WeddingVideoPage",
+        },
+      ],
+    },
+    {
+      title: "SkeletonUIPractice",
+      dates: "2023.12.15",
+      location: "",
+      description:
+        "개인 프로젝트로 React로 진행하게된 SkeletonUI 웹사이트 입니다.이전의 진행하게된 WeddingLery 소스를 가지고 json으로 파싱하여 웹에 뿌려지게 한 후 로딩전에는 스켈레톤 모양의 UI 나타나고 로딩이 완료되면 스켈레톤 UI 대로 화면에 노출되게 합니다.",
+      image: "",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://bp4sp4.github.io/SkeletonUIPractice/",
+        },
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/SkeletonUIPractice",
+        },
+      ],
+    },
+    {
+      title: "웹퍼블리싱 - K-Digital 기초역량 훈련",
+      dates: "2024.01.24 - 2024.03.20",
+      location: "",
+      description:
+        "여러 프로젝트를 진행하면서 기존에 보유하고 있던 퍼블리싱 역량을 더욱 강화하고, 실무에서 필요한 웹 기술들을 깊이 있게 익혔습니다. 다양한 웹 페이지를 직접 만들며 HTML, CSS, JavaScript 등의 기초적인 기술을 활용한 경험을 쌓았고, 이를 통해 퍼블리싱 작업을 더욱 효율적으로 할 수 있는 스킬을 키울 수 있었습니다. ",
+      image:
+        "data:image/png;base64,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",
+      win: "",
+      links: [
+        {
+          title: "air-bnb : Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/airbnb",
+        },
+        {
+          title: "404-page : Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/404Page",
+        },
+        {
+          title: "Parallax-scrolling : Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/Parallax-scrolling",
+        },
+        {
+          title: "NextLevelFairs: Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/NextLevelFairs",
+        },
+        {
+          title: "KakaoBank : Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/KakaoBank",
+        },
+      ],
+    },
+    {
+      title: "LostArk-Open-API",
+      dates: "24.03.26 - 24.04.02",
+      location: "",
+      description:
+        "이 프로젝트는 내가 좋아하는 게임인 로스트아크를 주제로 만들어서 더욱 즐거웠습니다. Postman을 활용해 로스트아크 OpenAPI에서 데이터를 가져오고, 이를 JSON 형식으로 가공하여 React로 웹페이지에 동적으로 표시했습니다. 모바일 웹 형식으로 제작하여 사용자들이 휴대폰이나 브라우저를 통해 언제 어디서나 쉽게 정보를 확인할 수 있도록 구현했습니다.",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/b/be/Lost_Ark_logo.png",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://bp4sp4.github.io/LostArk-Open-API/",
+        },
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/LostArk-Open-API",
+        },
+      ],
+    },
+    {
+      title: "MegaStudy - BackEnd ",
+      dates: "2024.06 - 2024.12",
+      location: "",
+      description: "",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/open-source-circular-economy-days.jpg",
       win: "1st Place Winner",
       links: [
         {
-          title: "Source",
+          title: "JavaStduy : github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/genecis",
+          href: "https://github.com/bp4sp4/JavaStudy",
+        },
+
+        {
+          title: "WebFront : github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/WebFront",
+        },
+
+        {
+          title: "Relux : github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/ReLux",
+        },
+
+        {
+          title: "JavaStduy : github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bp4sp4/JavaStudy",
         },
       ],
     },
