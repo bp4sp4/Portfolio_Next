@@ -1,7 +1,6 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, PaletteIcon } from "lucide-react";
 import { FileCheck } from "lucide-react";
-import PaletteIcon from "@mui/icons-material/Palette";
 
 export const DATA = {
   name: "SangHun",
@@ -157,7 +156,7 @@ export const DATA = {
         },
         {
           type: "Figma",
-          icon: <PaletteIcon className="h-2 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Grc4Vp3bSTwaJea6-0",
         },
         {
@@ -187,7 +186,7 @@ export const DATA = {
 
         {
           type: "Figma",
-          icon: <PaletteIcon className="h-2 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux",
         },
         {
@@ -414,7 +413,7 @@ export const DATA = {
         },
         {
           title: "Figma",
-          icon: <PaletteIcon className="h-2 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?node-id=0-1&p=f&t=mPRk4qO69AtKSCnX-0",
         },
         {
@@ -440,7 +439,7 @@ export const DATA = {
         },
         {
           title: "Figma",
-          icon: <PaletteIcon className="h-2 w-4" />,
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Lb8SZvO9ISn9mYLK-0",
         },
         {
@@ -544,8 +543,8 @@ export const DATA = {
           href: "http://3.36.98.75:8080/main/list-view",
         },
         {
-          title: "Figma",
-          icon: <PaletteIcon className="h-2 w-4" />,
+          type: "Figma",
+          icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux?node-id=0-1&p=f&t=avLsjcxiQ2i4dD0Q-0",
         },
         {
