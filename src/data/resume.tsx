@@ -6,9 +6,9 @@ import PaletteIcon from "@mui/icons-material/Palette";
 export const DATA = {
   name: "SangHun",
   initials: "SH",
-  url: "https://dillion.io",
+  url: "https://portfolio-sanghunpark.vercel.app/",
   location: "Gangseo-gu,  Seoul, Republic of Korea",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/Gangseo-gu,+Seoul",
   description:
     "안녕하세요! 배움에 겁이 없는 웹 개발자,QA(테스터) 박상훈입니다! 좋아하는것이기에 재미있게 항상 웹 개발을 진행해왔습니다.",
   summary:
