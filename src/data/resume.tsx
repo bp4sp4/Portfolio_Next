@@ -156,7 +156,7 @@ export const DATA = {
         },
         {
           type: "Figma",
-          icon: <PaletteIcon className="size-3" />,
+          icon: <PaletteIcon className="siez-3" />,
           href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Grc4Vp3bSTwaJea6-0",
         },
         {
