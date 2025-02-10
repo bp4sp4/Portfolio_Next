@@ -20,12 +20,20 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: DATA.name,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: DATA.name,
     locale: "ko_KR",
     type: "website",
+    images: [
+      {
+        url: DATA.avatarUrl || "/me.jpeg",
+        width: 800,
+        height: 600,
+        alt: `${DATA.name} 프로필 이미지`,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -39,8 +47,10 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: DATA.name,
     card: "summary_large_image",
+    description: DATA.description,
+    images: [DATA.avatarUrl || "/default-image.jpg"],
   },
   verification: {
     google: "",

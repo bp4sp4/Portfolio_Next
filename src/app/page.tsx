@@ -140,15 +140,13 @@ export default function Page() {
                   History
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  기술과 함께 성장한 나의 이야기
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  아이디어를 코드로 실현하는 것을 즐깁니다. 대학 시절부터 다양한
+                  프로젝트를 통해 사용자 경험과 기능적 완성도를 모두 고민하며
+                  성장해왔습니다. 세상에 작은 변화를 만드는 개발자의 여정을
+                  이어가고 있습니다.
                 </p>
               </div>
             </div>
@@ -182,12 +180,13 @@ export default function Page() {
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+                함께 이야기해요
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm with a direct question on
-                twitter and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                유능한 웹개발자, QA 를 찾고 있으신가요?
+                <br />
+                새로운 기술을 습득하는 것에 대한 두려움이 없는 웹개발자, QA
+                박상훈 입니다. 저의 성장과 발전을 함께할 동료를 기대합니다.
               </p>
             </div>
           </BlurFade>
