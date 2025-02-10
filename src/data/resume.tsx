@@ -543,7 +543,7 @@ export const DATA = {
           href: "http://3.36.98.75:8080/main/list-view",
         },
         {
-          type: "Figma",
+          title: "Figma",
           icon: <PaletteIcon className="size-3" />,
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux?node-id=0-1&p=f&t=avLsjcxiQ2i4dD0Q-0",
         },
