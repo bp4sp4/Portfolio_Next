@@ -157,7 +157,7 @@ export const DATA = {
         },
         {
           type: "Figma",
-          icon: <PaletteIcon className="size-3" />,
+          icon: <PaletteIcon className="h-4 w-4" />,
           href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Grc4Vp3bSTwaJea6-0",
         },
         {
@@ -187,7 +187,7 @@ export const DATA = {
 
         {
           type: "Figma",
-          icon: <PaletteIcon className="size-3" />,
+          icon: <PaletteIcon className="h-4 w-4" />,
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux",
         },
         {
@@ -414,7 +414,7 @@ export const DATA = {
         },
         {
           title: "Figma",
-          icon: <PaletteIcon className="size-3" />,
+          icon: <PaletteIcon className="h-4 w-4" />,
           href: "https://www.figma.com/design/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?node-id=0-1&p=f&t=mPRk4qO69AtKSCnX-0",
         },
         {
@@ -545,7 +545,7 @@ export const DATA = {
         },
         {
           title: "Figma",
-          icon: <PaletteIcon className="size-3" />,
+          icon: <PaletteIcon className="h-4 w-4" />,
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux?node-id=0-1&p=f&t=avLsjcxiQ2i4dD0Q-0",
         },
         {
