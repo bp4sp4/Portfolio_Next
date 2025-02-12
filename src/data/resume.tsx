@@ -133,7 +133,7 @@ export const DATA = {
       image2: "",
     },
     {
-      title: "WeddingLery",
+      title: "WeddingLery - Publishing",
       href: "https://bp4sp4.github.io/WeddingVideoPage/",
       dates: "2023.11 - 2023.12",
       caution: "",
@@ -223,7 +223,7 @@ export const DATA = {
       image2: "/htmlstudy.gif",
     },
     {
-      title: "(주)TM media",
+      title: "(주)TM media - Publishing",
       href: "https://tmmedia.co.kr/",
       dates: "2023.11 - 2023.12",
       caution: "",
