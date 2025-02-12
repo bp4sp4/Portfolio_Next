@@ -1,5 +1,12 @@
 # next_portfolio
 
+## 포트폴리오 - <a href="https://portfolio-shpark.vercel.app/" target="_blank">사이트</a>
+
+<h2>25/02/12</h2>
+
+- 링크추가
+- 폰트 추가 예정
+
 <h2>25/02/10</h2>
 
 - project 영역 마무리
