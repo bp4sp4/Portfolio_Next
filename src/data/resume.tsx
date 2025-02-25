@@ -160,7 +160,7 @@ export const DATA = {
           href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Grc4Vp3bSTwaJea6-0",
         },
         {
-          title: "Client Source",
+          type: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/WeddingVideoPage",
         },
@@ -190,7 +190,7 @@ export const DATA = {
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux",
         },
         {
-          title: "Client Source",
+          type: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/ReLux",
         },
@@ -214,7 +214,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          title: "Client Source",
+          type: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/HtmlStudy",
         },
@@ -238,7 +238,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          title: "Client Source",
+          type: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/TM-Media",
         },
@@ -262,7 +262,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          title: "Client Source",
+          type: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/lolmoney",
         },
@@ -281,7 +281,7 @@ export const DATA = {
       technologies: ["React", "HTML5", "CSS3", "JavaScript"],
       links: [
         {
-          title: "Client Source",
+          type: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/cheapchatgpt",
         },
