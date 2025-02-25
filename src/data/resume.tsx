@@ -101,7 +101,7 @@ export const DATA = {
       active: true,
       description:
         "와이즈스톤티에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 입사 당시에는 티멤버쉽 앱의 검증을 주도적으로 진행하였습니다. 앱의 출시 당일부터 이후에도 지속적으로 사후 검증을 진행하여 사용자 경험을 개선하고 앱의 안정성을 유지하는 데 기여하였습니다.",
-      technologies: ["Jira", "Excel"],
+      technologies: ["Jira", "Excel", "WiseStone - Company"],
       links: [
         {
           type: "TestCase",
@@ -121,7 +121,7 @@ export const DATA = {
       active: true,
       description:
         "와이즈스톤티에서 6개월 동안 SKM 1팀의 연구원으로 활동하였습니다. 테이블링 앱/웹 검증을 진행하였습니다. 테이블링 인트로/홈 담당 검증을 마치고, 사장님보드 웹겁증을 진행 했습니다.",
-      technologies: ["Jira", "Excel"],
+      technologies: ["Jira", "Excel", "WiseStone - Company"],
       links: [
         {
           type: "TestCase",
@@ -201,7 +201,7 @@ export const DATA = {
     {
       title: "HtmlStudy",
       href: "https://htmlstudy.co.kr/",
-      dates: "2023.11 ~ 2023.12",
+      dates: "2024.06 ~ 2024.08",
       caution: "",
       active: true,
       description:
@@ -225,7 +225,7 @@ export const DATA = {
     {
       title: "(주)TM media - Publishing",
       href: "https://tmmedia.co.kr/",
-      dates: "2023.11 - 2023.12",
+      dates: "2024.12.10 - 2024.12.17",
       caution: "",
       active: true,
       description:
@@ -248,23 +248,23 @@ export const DATA = {
     },
     {
       title: "Gallery",
-      href: "https://bp4sp4.github.io/CSSGrid/",
-      dates: "2023.11 - 2023.12",
+      href: "https://lolmoney.vercel.app/",
+      dates: "2025.02",
       caution: "",
       active: true,
       description:
-        "CSS Grid를 활용해 이미지뿐만 아니라 다양한 콘텐츠를 효율적으로 배치하는 갤러리 홈페이지를 퍼블리싱한 미니프로젝트입니다. HTML5, CSS3, JavaScript를 사용하여 동적 이미지 로딩과 레이아웃을 구현하며, 사용자 경험을 고려한 디자인을 완성했습니다. 반응형 디자인을 통해 다양한 디바이스 환경에서도 최적의사용자 경험을 제공합니다.",
-      technologies: ["HTML5", "CSS3", "JavaScript"],
+        "CSS Grid를 활용하여 이미지뿐만 아니라 다양한 콘텐츠를 효율적으로 배치하는 갤러리형 홈페이지를 개발한 미니 프로젝트입니다. HTML5, CSS3, JavaScript와 함께 Next.js를 사용하여 동적인 이미지 로딩을 최적화했으며, Unsplash API를 활용해 고품질의 이미지를 실시간으로 불러오는 기능을 구현했습니다. 또한, 반응형 디자인을 적용하여 다양한 디바이스 환경에서도 최적의 사용자 경험을 제공합니다.",
+      technologies: ["Next.js", "HTML5", "CSS3", "Unsplash"],
       links: [
         {
           type: "Website",
-          href: "https://bp4sp4.github.io/CSSGrid/",
+          href: "https://lolmoney.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           title: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/bp4sp4/CSSGrid",
+          href: "https://github.com/bp4sp4/lolmoney",
         },
       ],
       image: "",
@@ -273,7 +273,7 @@ export const DATA = {
     {
       title: "GPT-3.5",
       href: "",
-      dates: "2023.11 - 2023.12",
+      dates: "2024.05 - 2024.06",
       caution: "",
       active: true,
       description:
@@ -417,7 +417,7 @@ export const DATA = {
           href: "https://www.figma.com/design/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?node-id=0-1&p=f&t=mPRk4qO69AtKSCnX-0",
         },
         {
-          title: "Github",
+          title: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/MoviePlaza",
         },
@@ -443,7 +443,7 @@ export const DATA = {
           href: "https://www.figma.com/design/ShCgLKcrh1RjeZv4DnSUYb/%EC%9B%A8%EB%94%A9%EB%9F%AC%EB%A6%AC?node-id=0-1&p=f&t=Lb8SZvO9ISn9mYLK-0",
         },
         {
-          title: "Github",
+          title: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/WeddingVideoPage",
         },
@@ -548,7 +548,7 @@ export const DATA = {
           href: "https://www.figma.com/design/OlX9bcW7SySE93HnEr58QZ/ReLux?node-id=0-1&p=f&t=avLsjcxiQ2i4dD0Q-0",
         },
         {
-          title: "github",
+          title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/ReLux",
         },
@@ -570,7 +570,7 @@ export const DATA = {
           href: "https://tmmedia.co.kr/",
         },
         {
-          title: "github",
+          title: "Client Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/bp4sp4/TM-Media",
         },
@@ -587,12 +587,12 @@ export const DATA = {
         {
           title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://bp4sp4.github.io/CSSGrid/",
+          href: "https://lolmoney.vercel.app/",
         },
         {
-          title: "github",
+          title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/bp4sp4/CSSGrid",
+          href: "https://github.com/bp4sp4/lolmoney",
         },
       ],
     },
